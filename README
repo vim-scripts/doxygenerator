@@ -1,0 +1,3 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1657
+
+Just type '\f' putting the cursor on a C function definition/definition, and it will generate the corresponding Doxygen format documentation template for that function. So far, it doesn't handle functions with variable number of arguments, using '...'. Also, using it for 'void' functions will give incorrect result :)
